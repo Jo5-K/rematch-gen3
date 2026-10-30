@@ -44,3 +44,11 @@ Manifesto e compatibilidade Gen3 aprovados pela ferramenta oficial da base local
 Execute `lua tests/rematch_test.lua .` na raiz para os testes. As fixtures incluem apenas os comandos mínimos dos dois treinadores de Petalburg Woods; não precisam da ROM nem dos arquivos locais do autor.
 
 O workflow oficial de publicação do modkit do G1R publica uma release e um ZIP instalável após alterações de código em `main`. Atualize `version` no manifesto para a próxima versão. O arquivo ZIP publicado recebe exatamente a versão da release.
+
+## English
+
+Standalone optional trainer rematches for FireRed, LeafGreen, Ruby, Sapphire and Emerald on G1R 0.3.93+. Import the release ZIP through MODS, enable Rematch Gen3, then speak to an eligible defeated trainer. Confirm or cancel the rematch. XP and money rewards are configurable from 0 to 80%; double battles, cooldown and win limits can also be configured. Story-sensitive trainers remain excluded.
+
+Version 0.1.2 keeps the same code. Simulated tests cover confirmations, reward bounds, doubles, cooldown, reload and trainer exclusions. Physical Android/ROM validation is not claimed.
+
+Other independent mods: [Glass Menu](https://github.com/Jo5-K/glass-menu-jo5-k) and [2D Battle Menu](https://github.com/Jo5-K/2d-battle-menu-jo5-k).
